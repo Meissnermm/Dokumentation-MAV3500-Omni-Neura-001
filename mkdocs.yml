@@ -1,8 +1,11 @@
 site_name: AGV 3500 Omni Neura Robotics 001
-
+  
 nav:
   - Home: index.md
   - Harting Belegung:
       - Übersicht: Harting-Belegung/index.md
-      - Blech R: Harting-Belegung/Blech-linke-Seite.md
-      - Blech L: Harting-Belegung/Blech-rechte-Seite.md
+      - Blech L: Harting-Belegung/Blech-linke-Seite.md
+      - Blech R: Harting-Belegung/Blech-rechte-Seite.md
+markdown_extensions:
+  - pymdownx.details
+  - pymdownx.superfences
